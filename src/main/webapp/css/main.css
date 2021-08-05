@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: Calibri, serif;
+}
+
+.header {
+    width: 100%;
+}
+
+.mancala-table {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-color: black;
+    table-layout: fixed;
+}
+
+.mancala-pit-cell {
+    height: 50px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.not-clickable {
+    cursor: not-allowed;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.mancala-cell {
+    height: 75px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mancala-empty-cell {
+    height: 75px;
+    color: whitesmoke;
+}
+
+.btn-newgame {
+    width: 200px;
+    height: 50px;
+}
